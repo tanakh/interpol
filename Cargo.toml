@@ -13,7 +13,7 @@ license = "MIT"
 readme = "README.md"
 
 categories = ["text-processing"]
-keywords = ["text", "string interpolation"]
+keywords = ["text", "interpolation"]
 
 [dependencies]
 interpol-impl = { version = "0.1", path = "interpol-impl" }
