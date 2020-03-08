@@ -4,13 +4,9 @@ version = "0.1.0"
 authors = ["Hideyuki Tanaka <tanaka.hideyuki@gmail.com>"]
 edition = "2018"
 
-description = "String interpolation macros"
+description = "String interpolation macros implementation package"
 repository = "https://github.com/tanakh/interpol"
 license = "MIT"
-readme = "README.md"
-
-categories = ["text-processing"]
-keywords = ["text", "string interpolation"]
 
 [lib]
 proc-macro = true
