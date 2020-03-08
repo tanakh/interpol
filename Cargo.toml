@@ -1,0 +1,12 @@
+[workspace]
+members = ["interpol-impl"]
+
+[package]
+name = "interpol"
+version = "0.1.0"
+authors = ["Hideyuki Tanaka <tanaka.hideyuki@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+interpol-impl = { path = "interpol-impl" }
+proc-macro-hack = "0.5"
