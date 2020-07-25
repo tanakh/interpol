@@ -1,9 +1,6 @@
-[workspace]
-members = ["interpol-impl"]
-
 [package]
 name = "interpol"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Hideyuki Tanaka <tanaka.hideyuki@gmail.com>"]
 edition = "2018"
 
@@ -15,6 +12,10 @@ readme = "README.md"
 categories = ["text-processing"]
 keywords = ["text", "interpolation"]
 
+[lib]
+proc-macro = true
+
 [dependencies]
-interpol-impl = { version = "0.1", path = "interpol-impl" }
-proc-macro-hack = "0.5"
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version = "1.0", features = ["full"] }
