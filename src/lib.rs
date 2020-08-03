@@ -1,8 +1,6 @@
 //! # interpol
 //! String interpolation macros for rust
 //!
-//! This crate uses [proc_macro_hack](https://crates.io/crates/proc-macro-hack), so it //! works with stable version of rustc.
-//!
 //! # Usage
 //!
 //! Macros provided by this crate correspond to std's formatting macros (`format`,`print`, `println`, `eprint`, `eprintln`, ...).
